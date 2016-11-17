@@ -1,0 +1,468 @@
+﻿
+
+
+
+.buttonArea {
+    float: left;
+    left: 50%;
+    position: relative;
+    top: 100%;
+    margin-top: -32px;
+}
+
+.buttonCon {
+    float: left;
+    left: -50%;
+    position: relative;
+}
+
+    .buttonCon .theButton {
+        display: block;
+        color: #B22222;
+        width: 20px;
+        height: 22px;
+        background: url(../img/banner/circlebutton.png) no-repeat;
+        text-indent: -9999px;
+        border: 0;
+        margin-right: 3px;
+        float: left;
+    }
+
+.buttonArea a.active {
+    background-position: 0 -22px;
+}
+
+.arrowButton {
+    cursor: pointer;
+}
+
+    .arrowButton .prevArrow {
+        background: url(../img/banner/prev.png) no-repeat;
+        width: 40px;
+        height: 80px;
+        position: absolute;
+        top: 170px;
+        left: 12px;
+    }
+
+    .arrowButton .nextArrow {
+        background: url(../img/banner/next.png) no-repeat;
+        width: 40px;
+        height: 80px;
+        position: absolute;
+        top: 170px;
+        right: 12px;
+    }
+
+.fadeInUpBig {
+    -webkit-animation-name: fadeInUpBig;
+    -moz-animation-name: fadeInUpBig;
+    -o-animation-name: fadeInUpBig;
+    animation-name: fadeInUpBig;
+}
+
+.animate0 {
+    -webkit-animation-duration: .6s;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .6s;
+    -moz-animation-delay: 0s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -ms-animation-duration: .6s;
+    -ms-animation-delay: 0s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    animation-duration: .6s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+.animate1 {
+    -webkit-animation-duration: .6s;
+    -webkit-animation-delay: .2s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .6s;
+    -moz-animation-delay: .2s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -ms-animation-duration: .6s;
+    -ms-animation-delay: .2s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    animation-duration: .6s;
+    animation-delay: .2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+.animate2 {
+    -webkit-animation-duration: .6s;
+    -webkit-animation-delay: .4s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .6s;
+    -moz-animation-delay: .4s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -ms-animation-duration: .6s;
+    -ms-animation-delay: .4s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    animation-duration: .6s;
+    animation-delay: .4s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+.animate3 {
+    -webkit-animation-duration: .6s;
+    -webkit-animation-delay: .6s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .6s;
+    -moz-animation-delay: .6s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -ms-animation-duration: .6s;
+    -ms-animation-delay: .6s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    animation-duration: .6s;
+    animation-delay: .6s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+.animate4 {
+    -webkit-animation-duration: .6s;
+    -webkit-animation-delay: .8s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .6s;
+    -moz-animation-delay: .8s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -ms-animation-duration: .6s;
+    -ms-animation-delay: .8s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    animation-duration: .6s;
+    animation-delay: .8s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+.animate5 {
+    -webkit-animation-duration: .6s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .6s;
+    -moz-animation-delay: 1s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -ms-animation-duration: .6s;
+    -ms-animation-delay: 1s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    animation-duration: .6s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+.animate6 {
+    -webkit-animation-duration: .6s;
+    -webkit-animation-delay: 1.2s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .6s;
+    -moz-animation-delay: 1.2s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -ms-animation-duration: .6s;
+    -ms-animation-delay: 1.2s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    animation-duration: .6s;
+    animation-delay: 1.2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+.animate7 {
+    -webkit-animation-duration: .6s;
+    -webkit-animation-delay: 1.4s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: .6s;
+    -moz-animation-delay: 1.4s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-fill-mode: both;
+    -ms-animation-duration: .6s;
+    -ms-animation-delay: 1.4s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-fill-mode: both;
+    animation-duration: .6s;
+    animation-delay: 1.4s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+
+
+
+
+
+
+
+
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    -webkit-user-select: none;
+}
+
+#banner {
+}
+
+.oneByOne1 {
+    margin-top: 0px;
+    height: 440px;
+    background: transparent;
+    overflow: hidden;
+    text-align: center;
+    left: auto;
+}
+
+#banner .oneByOne_item {
+    position: absolute;
+    height: 440px;
+    overflow: hidden;
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+    #banner .oneByOne_item a {
+        text-decoration: none;
+        color: #B22222;
+    }
+
+    /*.banner-content-wrapped{display:inline-block;margin:0 auto;background:green;width:800px;height:320px;padding-top:100px;margin-right:100px}*/
+    #banner .oneByOne_item span.slide2Txt0 {
+        position: relative;
+        clear: left;
+        float: left;
+        margin: 0;
+        width: 100%;
+        height: 440px;
+        position: absolute;
+        z-index: 0;
+        text-align: left;
+        text-indent: -9999px;
+        left: 0px;
+    }
+
+
+    #banner .oneByOne_item.one span.slide2Txt0 {
+        background: url(../img/banner/istock1.jpg) no-repeat;
+        background-size: 1903px 440px;
+        -webkit-background-size: 1903px 440px;
+    }
+
+    #banner .oneByOne_item.fc span.slide2Txt0 {
+        background: url(../img/banner/futuredecoded/futuredecoded2.html) top center no-repeat;
+    }
+
+
+    #banner .oneByOne_item.ucs span.slide2Txt0 {
+        background: url("(/img/banner/Document_Scanning.html") top center no-repeat;
+    }
+
+
+
+    #banner .oneByOne_item.two span.slide2Txt0 {
+        background: url(../img/banner/istock2.jpg) top center no-repeat;
+        background-size: 100%;
+    }
+
+    #banner .oneByOne_item.gc span.slide2Txt0 {
+        background: url("(/img/banner/LA_Skyline_Mountains2.html") top center no-repeat;
+    }
+
+    #banner .oneByOne_item.three span.slide2Txt0 {
+        background: url(../img/banner/istock3.jpg) top center no-repeat;
+        background-size: 100%;
+    }
+
+    #banner .oneByOne_item.four span.slide2Txt0 {
+        background: url("../img/banner/istock4.jpg") top center no-repeat;
+    }
+
+    #banner .oneByOne_item.poty span.slide2Txt0 {
+        background: url("../img/banner/LA_Skyline_Mountains2.jpg") top center no-repeat;
+    }
+
+    #banner .oneByOne_item.edu span.slide2Txt0 {
+        background: url("../img/banner/7428079.28.jpg") top center no-repeat;
+    }
+
+
+
+    #banner .oneByOne_item span.slide2Txt1,
+    #banner .oneByOne_item span.slide2Txt2,
+    #banner .oneByOne_item span.slide2Txt3,
+    #banner .oneByOne_item span.slide2Txt4 {
+        position: relative;
+        clear: left;
+        float: left;
+        color: #fff;
+        font-size: 12px;
+        padding: 0px;
+        width: 345px;
+        text-align: left;
+    }
+
+    #banner .oneByOne_item span.slide2Txt5 {
+        position: relative;
+        clear: left;
+        float: left;
+        color: #fff;
+        font-size: 12px;
+        padding: 0px;
+        width: 580px;
+        text-align: left;
+    }
+
+    /*Radek-changed the margin from 70px to 20px to accommodate longer text*/
+    #banner .oneByOne_item span.slide2Txt1 {
+        margin: 20px 0 0px 12%;
+    }
+
+    #banner .oneByOne_item span.slide2Txt2 {
+        margin: 30px 0 20px 12%;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    #banner .oneByOne_item span.slide2Txt3 {
+        margin: 0px 0 0px 12%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #banner .oneByOne_item span.slide2Txt4 {
+        margin: 25px 0 0 12%;
+        font-size: 14px;
+    }
+
+        #banner .oneByOne_item span.slide2Txt4 a:link,
+        #banner .oneByOne_item span.slide2Txt4 a:visited,
+        #banner .oneByOne_item span.slide2Txt4 a:active {
+            background: orange;
+            display: block;
+            padding: 15px 20px;
+            color: #fff;
+            float: left;
+        }
+
+        #banner .oneByOne_item span.slide2Txt4 a:hover {
+            background:  #ccc;
+        }
+
+
+    #banner .oneByOne_item.two span.slide2Txt4 a:link,
+    #banner .oneByOne_item.two span.slide2Txt4 a:visited,
+    #banner .oneByOne_item.two span.slide2Txt4 a:active {
+        background: orange;
+    }
+
+    #banner .oneByOne_item.two span.slide2Txt4 a:hover {
+        background: #ccc;
+    }
+
+    #banner .oneByOne_item span.slide2img {
+        width: 520px;
+        height: 440px;
+        margin: 0 0 0 5%;
+        display: inline-block;
+        display: none !important;
+    }
+/*#banner .oneByOne_item img.bigImage{position: absolute;top: 0; left: 0;width: 100%;}*/
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    #banner .oneByOne_item span.slide2Txt1 img,
+    #banner .oneByOne_item span.slide2Txt2 img,
+    #banner .oneByOne_item span.slide2Txt3 img,
+    #banner .oneByOne_item span.slide2Txt4 img {
+        width: 70%;
+    }
+
+    #banner .gc span.slide2Txt1 img {
+        width: 50%;
+    }
+
+    #banner .oneByOne_item span.slide2Txt1,
+    #banner .oneByOne_item span.slide2Txt2,
+    #banner .oneByOne_item span.slide2Txt3,
+    #banner .oneByOne_item span.slide2Txt4 {
+        position: relative;
+        clear: left;
+        float: left;
+        color: #fff;
+        font-size: 12px;
+        padding: 0px;
+        width: 300px;
+        text-align: center;
+    }
+
+    /*Radek-changed the margin from 35px to 10px to accommodate longer text*/
+    #banner .oneByOne_item span.slide2Txt1 {
+        margin: 10px 0 0px 10px;
+    }
+    /*Radek-changed the margin from 30px and 20px to 20px and 10px to accommodate longer text*/
+    #banner .oneByOne_item span.slide2Txt2 {
+        margin: 20px 0 10px 10px;
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    #banner .oneByOne_item span.slide2Txt3 {
+        margin: 0px 0 0px 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #banner .oneByOne_item span.slide2Txt4 {
+        margin: 25px 0 0 10px;
+        font-size: 13px;
+    }
+
+    .buttonCon {
+        display: inline-block !important;
+    }
+
+
+    #banner .oneByOne_item span.slide2Txt4 a:link,
+    #banner .oneByOne_item span.slide2Txt4 a:visited,
+    #banner .oneByOne_item span.slide2Txt4 a:active {
+        float: none;
+    }
+}
+
+#banner .oneByOne_item .slidebackgrey {
+    background-color: rgba(109,110,113,0.8);
+    line-height: 50px !important;
+    padding-left: 5px !important;
+}
